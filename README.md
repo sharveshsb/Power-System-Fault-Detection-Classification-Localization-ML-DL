@@ -7,10 +7,14 @@
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ## 📄 IEEE Publication
+
 **"ML and DL-Based Intelligent Detection, Classification, and Localization of Faults in Power Transmission Systems"**
-A. A. A. Deng, S. B. Sharveshwaran, K. M. Shivram, B. Narthana, Angel T S, Sreelekshmi R S
+Achuoth Akol Achuoth Deng, Sharveshwaran S B, K. Manik Shivram, Narthana B, Angel T S, Sreelekshmi R S
 Department of EEE, Amrita Vishwa Vidyapeetham, Amritapuri, India
-**Accepted for publication — IEEE ICIICS 2026 (IEEE Bangalore Section)**
+
+**Published — 2026 3rd International Conference on Integrated Intelligence and Communication Systems (ICIICS), IEEE Bangalore Section**
+
+🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/document/11483490)
 
 ---
 
@@ -100,7 +104,7 @@ across a 300 km transmission line.
 ## ⚙️ Methodology
 
 ### 1. Power System Modeling
-3-phase 300km transmission line modelled in MATLAB/Simulink.
+3-phase 300 km transmission line modelled in MATLAB/Simulink.
 Three-phase voltages and currents measured at relay point.
 
 ### 2. Dataset Generation
@@ -172,17 +176,17 @@ python main.py
 ### Output Files
 ```
 results/
-├── cm_FT_*.png          # Fault type confusion matrices
-├── cm_FL_*.png          # Fault location confusion matrices
-├── cm_PH_*.png          # Phase confusion matrices
+├── cm_FT_*.png               # Fault type confusion matrices
+├── cm_FL_*.png               # Fault location confusion matrices
+├── cm_PH_*.png               # Phase confusion matrices
 ├── dl_training_curves.png
 └── model_ranking_improved.csv
 
 saved_models/
-├── FT_*.pkl             # Fault type models
-├── FL_*.pkl             # Fault location models
-├── PH_*.pkl             # Phase models
-└── dl_multitask_best.h5 # Deep learning model
+├── FT_*.pkl                  # Fault type models
+├── FL_*.pkl                  # Fault location models
+├── PH_*.pkl                  # Phase models
+└── dl_multitask_best.h5      # Deep learning model
 ```
 
 ---
